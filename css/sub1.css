@@ -1,0 +1,177 @@
+
+
+/***********************sec1*****************************/
+#sub1_sec1{
+        background-color:lavender;
+        height: 780px;
+        padding: 100px;
+}
+.submenu_box{
+        
+}
+.submenu_box > a{
+    font-family: 'Amiri', serif;
+    font-size: 7rem;color: #000;        font-weight: 400;font-style: italic;
+    display: inline-block;
+  }
+.submenu_box > a:nth-child(2){
+          color: #000;
+          font-size: 2rem;
+          display: inline-block;
+  }
+.sub1_txt1{}
+.sub1_txt1 h3{
+        font-size: 4rem;
+}
+.sub1_contbox div{
+        width: 500px;height: 500px;
+        background-color: #fff;
+        text-align: center;
+}
+.sub1_contbox div:nth-child(2){
+        margin-left: 780px;
+}
+.sub1_contbox div img{
+        width: 320px;height: 350px;
+}
+.sub_card1{
+}
+.sub_card2{
+}
+.sub_card3{
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+figure{
+        display: inline-block;
+        left: calc((100% - 1155px)/3);
+        border-radius: 6px;
+}
+figure.snip1425 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin: 35px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+figure.snip1425 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+figure.snip1425 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+figure.snip1425 figcaption {
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transform: translate(-10%, -70%);
+  transform: translate(-10%, -70%);
+}
+.ion-podium figure.snip1425 h2,
+figure.snip1425 h4 {
+  margin: 0;
+  font-size: 2rem;
+}
+figure.snip1425:after {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  content: "";
+  display: block;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotate3d(1, -1, 0, 100deg);
+  transform: rotate3d(1, -1, 0, 100deg);
+  opacity: 0;
+}
+figure.snip1425 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+}
+figure.snip1425:hover figcaption,
+figure.snip1425.hover figcaption {
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1425:hover:after,
+figure.snip1425.hover:after {
+  -webkit-transform: rotate3d(0, 0, 0, 0deg);
+  transform: rotate3d(0, 0, 0, 0deg);
+  opacity: 0.9;
+}
+/***view 버튼***/
+.view_btn a:first-child{
+        margin-left: 10%;
+}
+.view_btn a:nth-child(){}
+.view_btn a:last-child{}
+
+.arrow-btn {
+        position: relative;
+        display: inline-block;
+        border-radius: 0;
+        color: royalblue;
+        font-weight: bold;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        text-decoration: none;
+        transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+        padding-right: 2.5em;
+      }
+      .arrow-btn:first-child{margin-left: 10%;}
+      .arrow-btn:nth-child(2){margin-left: 20%;}
+      .arrow-btn:last-child{margin-left: 20%;}
+      .arrow-btn:hover {
+        transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+      .arrow-btn:hover:after {
+        transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform: translateX(15px);
+        opacity: 0;
+      }
+      .arrow-btn:hover:before {
+        transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform: translateX(0);
+        opacity: 1;
+      }
+      .arrow-btn:before, .arrow-btn:after {
+        content: "⟶";
+        position: absolute;
+        right: 0;
+        top: -25%;
+      }
+      .arrow-btn:before {
+        transform: translateX(-15px);
+        opacity: 0;
+      }
+      .arrow-btn:after {
+        transform: none;
+      }
+      
