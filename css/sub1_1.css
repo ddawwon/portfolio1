@@ -78,9 +78,10 @@
   transform: scale(0.96);
 }
 /*************.star**************/
-.star{}
+.star{
+  text-align: center;
+}
 .star img{
-  width: 1920px;
-  margin-left: calc((100% - 1920px)/2);
+  width: 100%;
   margin-top: 90px;
 }

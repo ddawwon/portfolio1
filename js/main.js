@@ -19,4 +19,8 @@ $('#nav_pop_btn').click(function(){
 })
 
 
+document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
+
+
+
 })//jq

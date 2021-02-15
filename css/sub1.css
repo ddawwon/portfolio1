@@ -89,7 +89,7 @@ figure.snip1425 h4 {
 }
 figure.snip1425:after {
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   content: "";
   display: block;
