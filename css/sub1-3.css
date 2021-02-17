@@ -35,5 +35,58 @@
 .sub1_contbox div img{
         width: 320px;height: 350px;
 }
-
+/*****홈버튼*****/
+.main_bottom{
+        top: 85%;
+        left: 5%;
+        position: absolute;
+        position: fixed;
+      }
+      .main_bottom>span{
+        margin-left: 15px;
+        cursor: pointer;
+        color: #000;
+        font-weight: 500;
+      }
+      .main_btn{
+        width: 25px;height: 25px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .main_btn span{
+        position: absolute;
+      }
+      .main_btn .dot1{
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+      .main_btn .dot2{
+        top: 0;
+        right: 0;
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+      .main_btn .dot3{
+        bottom: 0;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+      .main_btn .dot4{
+        bottom: 0;
+        right: 0;
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        border-radius: 50%;
+      }
 

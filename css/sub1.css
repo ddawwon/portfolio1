@@ -34,13 +34,6 @@
 .sub1_contbox div img{
         width: 320px;height: 350px;
 }
-.sub_card1{
-}
-.sub_card2{
-}
-.sub_card3{
-}
-
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
 figure{
@@ -51,6 +44,7 @@ figure{
 figure.snip1425 {
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 1rem;
+  text-align: center;
   position: relative;
   overflow: hidden;
   margin: 35px;
@@ -58,9 +52,11 @@ figure.snip1425 {
   max-width: 315px;
   width: 100%;
   color: #fff;
-  text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+}
+figure.snip1425 h5{
+  margin-top: 15px;
 }
 figure.snip1425 * {
   -webkit-box-sizing: padding-box;
@@ -93,10 +89,10 @@ figure.snip1425:after {
   position: absolute;
   content: "";
   display: block;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   -webkit-transform: rotate3d(1, -1, 0, 100deg);
@@ -111,6 +107,8 @@ figure.snip1425 a {
   position: absolute;
   z-index: 1;
   color: #fff;
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 figure.snip1425:hover figcaption,
 figure.snip1425.hover figcaption {
@@ -130,9 +128,6 @@ figure.snip1425.hover:after {
 .view_btn a:first-child{
         margin-left: 10%;
 }
-.view_btn a:nth-child(){}
-.view_btn a:last-child{}
-
 .arrow-btn {
         position: relative;
         display: inline-block;
@@ -174,4 +169,57 @@ figure.snip1425.hover:after {
       .arrow-btn:after {
         transform: none;
       }
-      
+/*****홈버튼*****/
+.main_bottom{
+  top: 85%;
+  left: 8%;
+  position: absolute;
+  position: fixed;
+}
+.main_bottom>span{
+  margin-left: 15px;
+  cursor: pointer;
+  color: #000;
+  font-weight: 500;
+}
+.main_btn{
+  width: 25px;height: 25px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.main_btn span{
+  position: absolute;
+}
+.main_btn .dot1{
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.main_btn .dot2{
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.main_btn .dot3{
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.main_btn .dot4{
+  bottom: 0;
+  right: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}      

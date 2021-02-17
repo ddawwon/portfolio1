@@ -1,6 +1,6 @@
    	.container{max-width:1400px;margin:0 auto}
 		.row{display:flex;flex-wrap:wrap;justify-content:start}
-		.row > div{width:calc((100% - 40px) / 4); margin-right:20px;top: 0px;}
+		.row > div{width:calc((100% - 40px) / 4); top: 0px;}
 		.row > div:nth-child(2n){margin-right:0}
 
 #fh5co-work {
