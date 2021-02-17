@@ -29,7 +29,11 @@
         position: relative;
         margin-top: 20px;
       }
-      
+      #img_tit{
+        width: 400px;height: 400px;
+      }
+      #img_tit img{
+      }
       .image-container {
         padding-bottom: 100%;
         background: black;
@@ -38,8 +42,8 @@
         z-index: 2;
         background-size: cover;
         background-position: center;
-        width: 400px;height: 400px;
       }
+      
       .section-title {
         margin: 0;
         font-size: 6rem;
