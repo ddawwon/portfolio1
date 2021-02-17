@@ -29,14 +29,13 @@
         position: relative;
         margin-top: 20px;
       }
-      #img_tit{
+      .img_tit{
         width: 400px;height: 400px;
       }
-      #img_tit img{
+      .img_tit img{
+        width: 100%;
       }
       .image-container {
-        padding-bottom: 100%;
-        background: black;
         position: relative;
         overflow: hidden;
         z-index: 2;
