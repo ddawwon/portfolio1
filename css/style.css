@@ -243,5 +243,135 @@ svg text {
 
 /*********************모바일 버전 max-width:768px****************************/
 @media all and (max-width:768px){
+  #main_cont {
+    height: 600px;
+    padding: 100px;
+}
+  .maintxt_1 {
+    margin-left: -30px;
+    padding-top: 90px;
+    letter-spacing: -5px;
+}
+.maintxt_2 {
+  padding-top: 70px;
+  margin-left: 10px;
+}
+  h4 {
+    /* font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-style: italic;
+    font-weight: 500; */
+    font-size: 6rem;
+}
+h1 {
+  /* font-family: 'Amiri', serif;
+  color: #000;
+  font-weight: 400; */
+  font-size: 4rem;
+}
+#main_cont p {
+  /* z-index: 999;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-weight: 400;
+  white-space: nowrap; */
+  font-size: 4rem;
+  top: 40%;
+  left: 48%;
+}
+h3 {
+  /* font-family: 'Amiri', serif;
+  color: #000;
+  font-weight: 400; */
+  font-size: 4rem;
+}
+.lazy{
+  /* position:absolute;
+  width: 370px;height: 480px;
+  overflow: hidden; */
+  left: 363px;
+  top: -280px;
+}
+.lazy div img{
+  width: 200px;height: 259px;
+}
+#sec_menu h1 {
+  font-size: 2.2rem;
+  margin-top: -15px;
+  margin-left: -60px; 
+}
+#sec_menu .lazy {
+  /* position: absolute;
+  top: 24%;
+  width: 222px;
+  height: 288px;
+  overflow: hidden; */
+  left: 6%;
+}
+#sec_menu > P {
+  /* color: #000;
+  position: absolute;
+   */
+  font-size: 1.2rem;
+  left: 6%;
+  margin-top: 400px;
+}
+#sec_menu {
+  /*
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 90px;
+  position: relative; */
+  height: 560px;
+}
+.menu_box > a {
+  /* position: relative;
+  text-decoration: none;
+  flex-grow: 1;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  font-family: 'Amiri', serif;
+  color: #000;
+  font-weight: 400;
+  font-style: italic;
+  width: 500px;
+  height: 200px; */
+  font-size: 4rem;
+  margin-left: -80px;
+  margin-top: -5px;
+}
+.menu_box .sub_txt1 {
+  /* float: right;
+   */
+  margin-top: -18%;
+  margin-right: 0px;
+}
+.menu_box > a:after {
+  /* content: attr(data-link-alt);
+  display: inline;
+  position: absolute;
+  transition: top 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  top: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #000;
+  font-style: italic;
+  font-weight: 500;
+   */
+   font-size: 3.8rem;
+}
+
 }/**max-width:768px**/
  
